@@ -1,71 +1,71 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="./style.css">
-  <script type="text/javascript" src="./.gitignore/keys.js"></script>
-  <script defer type="text/javascript" src="./src/index.js"></script>
-  
-</head>
-<body>
-
-  <div id="main-content">
-    <header>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="./.gitignore/keys.js"></script>
+    <script defer type="text/javascript" src="./src/index.js"></script>
+  </head>
+  <body>
+    <div id="main-content">
+      <header>
         <h1>Masterpieces of the Month</h1>
         <nav>
-
-          <form id = 'search_form'> Search
+          <form id="search_form">
+            Search
 
             <select name="category" id="search_category">
-
-                <option value="name">Name</option>
-                <option value="painting">Painting</option>
-                <option value="year">Year</option>
-
+              <option value="name">Name</option>
+              <option value="painting">Painting</option>
+              <option value="year">Year</option>
             </select>
 
-            <input name = "search_input" type="text" id = "form_input" placeholder = "">
-            <input type = "submit" value="search">
-              
+            <input
+              name="search_input"
+              type="text"
+              id="form_input"
+              placeholder=""
+            />
+            <input type="submit" value="search" />
           </form>
-          <button id = showFaveBtn>Show Favorites</button>
+          <button id="showFaveBtn">Show Favorites</button>
         </nav>
-
       </header>
 
       <main>
-
         <header id="image-details" class="hidden">
-            <img class="focus-image" src="">
-            <button id="favoriteBtn">Favorite</button>
-            <button id="removeFavBtn" class = "">Remove Favorite</button>
-            <h3>Rating:<span><select id="rating-dropdown"><option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></span></h3>
-          <h1 id=image-title>Title: <span id="image-title-content"></span></h1>
-            <h2 id="artist-name">Artist: <span id ="artist-name-content"></span></h2>
-            <h2 id="art-year"><span id="art-year-content"></span></h2>
-            
+          <img class="focus-image" src="" />
+          <button id="favoriteBtn">Favorite</button>
+          <button id="removeFavBtn" class="">Remove Favorite</button>
+          <h3>
+            Rating:<span
+              ><select id="rating-dropdown">
+                <option></option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select></span
+            >
+          </h3>
+          <h1 id="image-title">
+            Title: <span id="image-title-content"></span>
+          </h1>
+          <h2 id="artist-name">
+            Artist: <span id="artist-name-content"></span>
+          </h2>
+          <h2 id="art-year"><span id="art-year-content"></span></h2>
         </header>
 
         <section id="image-container">
-            <span></span>
+          <span></span>
         </section>
 
-        <section>
-
-
-        </section>
+        <section></section>
       </main>
 
-      <footer>
-
-        
-      </footer>
-
-
-
-
-    
-  </div>
-
-</body>
+      <footer></footer>
+    </div>
+  </body>
 </html>
